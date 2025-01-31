@@ -1,0 +1,13 @@
+{
+    "text": "Hello, [bold]world[/bold]! Welcome to [color=red]GameMaker[/color].",
+    "profile": {
+      "name": "CharacterName",
+      "image": "profile_image.png",
+      "animation": "profile_animation.gml"
+    },
+    "branches": [
+      { "option": "Yes", "next": "path_yes" },
+      { "option": "No", "next": "path_no" }
+    ],
+    "sound": "typing_sound.wav"
+  }
